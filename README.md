@@ -14,7 +14,10 @@ A tool **with** modern JS in mind
 
 Polenta is a simple dish, that may have a simple flavor, but when combined with the right stuff, becomes incredible.
 
-This package exposes functions for each html tag and a render function to generate elements using [Shadow DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM). Nothing else.
+This package exposes functions for each html tag and a render function to
+generate elements using either [Shadow
+DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM)
+or regular DOM. Nothing else.
 
 ## Installation
 

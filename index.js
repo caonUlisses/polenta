@@ -110,9 +110,15 @@ export const ul = (attrs, content) => wrapContainer('ul', attrs, content)
 export const video = (attrs, content) => wrapContainer('video', attrs, content)
 export const wbr = (attrs, content) => wrapContainer('wbr', attrs, content)
 
-export function render (content, rootElement) {
+export function renderShadow (content, rootElement) {
   try {
     const shadowRoot = document.getElementById(rootElement).attachShadow({ mode: 'open' })
     shadowRoot.innerHTML = content
+  } catch (e) { return null }
+}
+
+export function render (content, rootElement) {
+  try {
+    document.getElementById(rootElement).innerHTML = content
   } catch (e) { return null }
 }
