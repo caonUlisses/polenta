@@ -42,4 +42,4 @@ const content = polenta.div('id="my-div" class="blue big"',
 polenta.render(content, 'root')
 ```
 
-Just functions, no boilerplate, no dependencies.
+Just functions, no boilerplate, no dependencies, 1.56KB.
