@@ -1,8 +1,9 @@
 {
   "name": "polenta",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An anti-template language",
   "main": "index.js",
+  "module": "index.js",
   "author": "Ulisses Caon",
   "license": "MIT",
   "repository": {
