@@ -1,6 +1,6 @@
 {
   "name": "polenta",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "An anti-template language",
   "main": "index.js",
   "module": "index.js",

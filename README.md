@@ -18,7 +18,7 @@ This package exposes functions for each html tag and a render function to genera
 
 ## Installation
 
-Just run ``` yarn add polenta ``` or ``` npm install polenta ```
+Just run ``` yarn add polenta ``` or ``` npm install polenta ``` if you have a module bundler set up
 
 ## Usage
 
@@ -35,7 +35,8 @@ In your index.html file:
 And on yourFile.js:
 
 ```javascript
-import * as polenta from 'polenta'
+import * as polenta from 'https://www.unpkg.com/polenta@1.0.4/index.js' //
+assuming no webpack is to be found
 
 const content = polenta.div('id="my-div" class="blue big"',
   polenta.p('class="my-text"', "Hello World"))
