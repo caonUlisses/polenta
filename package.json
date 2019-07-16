@@ -4,5 +4,20 @@
   "description": "An anti-template language",
   "main": "index.js",
   "author": "Ulisses Caon",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "babel": {
+    "plugins": ["transform-es2015-modules-commonjs"]
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^5.6.0",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jest": "^24.8.0",
+    "jest-dom": "^4.0.0"
+  },
+  "dependencies": {}
 }
