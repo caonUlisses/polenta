@@ -1,5 +1,6 @@
 # Polenta
 
+![Build status](https://travis-ci.org/caonUlisses/polenta.svg?branch=master)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/polenta.svg)
 ![GitHub](https://img.shields.io/github/license/caonUlisses/polenta.svg)
